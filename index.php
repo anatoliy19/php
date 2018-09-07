@@ -17,14 +17,14 @@
 'Атлант расправил плечи'
  );
 
- print_r('<ol>');
+ print('<ol>');
  foreach ($books as $value) {
- 	print_r('<li>');
-    print_r($value);
-    print_r('</li>');
-    print_r('<br>');
+ 	print('<li>');
+    print($value);
+    print('</li>');
+    print('<br>');
 }
-print_r('</ol>');
+print('</ol>');
 
 $books_authors = array(
 	"Рей Брэдбери"=> "451° по Фаренгейту",
