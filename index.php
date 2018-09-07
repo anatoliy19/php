@@ -38,7 +38,7 @@ $books_authors = array(
 
 foreach ($books_authors as $key => $value) {
     echo "{$key} => {$value} ";
-    print_r('<br>');
+    print('<br>'); 
 }
 
 ?>
